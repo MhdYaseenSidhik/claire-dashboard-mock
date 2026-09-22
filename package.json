@@ -6,9 +6,11 @@
   "description": "Claire inventory & forecasting dashboard — mock for the Inventory & Forecasting Cell",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build:data": "tsx scripts/build_analysis.mts",
+    "build": "npm run build:data && tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b",
+    "lint": "echo 'Linting deferred to a later ticket — typecheck + tests are the gates. See eslint.config.js.'",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -28,6 +30,7 @@
     "jsdom": "^25.0.1",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
+    "tsx": "^4.23.15",
     "typescript": "^5.6.3",
     "vite": "^5.4.9",
     "vitest": "^2.1.3"

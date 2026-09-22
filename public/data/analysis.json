@@ -1,8 +1,2589 @@
 {
-  "generatedAt": null,
-  "note": "Placeholder analysis bundle. Replaced by the analysis/forecast pipeline in a later ticket. Shape: { kpis, forecasts, alerts, recommendations }.",
-  "kpis": [],
-  "forecasts": [],
-  "alerts": [],
-  "recommendations": []
+  "generatedAt": "2026-09-22T14:27:27.331Z",
+  "meta": {
+    "snapshotDate": "2026-09-01",
+    "materialCount": 18,
+    "forecastMethod": "seasonal-naive-baseline",
+    "forecastEngine": "MCP engine not reachable this run — transparent seasonal-naive baseline over Monthly_Consumption",
+    "dataGaps": [
+      "The SAP extract carries no PR/PO history — purchase-requisition timing is DERIVED (stock + forecast demand over lead time vs reorder point / safety stock) and every recommendation is advisory.",
+      "This dataset is the mock extract described in the brief, encoded deterministically by scripts/build_fixtures.py; it is not a live SAP feed."
+    ]
+  },
+  "kpis": {
+    "grossInventoryValue": 23353400,
+    "daysOnHand": 210,
+    "turnover": 1.48,
+    "nmiCount": 3,
+    "smiCount": 3,
+    "nmiValue": 7950000,
+    "smiValue": 7482000,
+    "forecastAccuracyPct": 87.8,
+    "criticalSparesTotal": 9,
+    "criticalSparesAvailable": 3,
+    "criticalSparesAvailabilityPct": 33.33
+  },
+  "forecasts": [
+    {
+      "materialCode": "MAT-1001",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 16
+        },
+        {
+          "month": "2025-11",
+          "qty": 17
+        },
+        {
+          "month": "2025-12",
+          "qty": 18
+        },
+        {
+          "month": "2026-01",
+          "qty": 20
+        },
+        {
+          "month": "2026-02",
+          "qty": 22
+        },
+        {
+          "month": "2026-03",
+          "qty": 22
+        },
+        {
+          "month": "2026-04",
+          "qty": 19
+        },
+        {
+          "month": "2026-05",
+          "qty": 18
+        },
+        {
+          "month": "2026-06",
+          "qty": 17
+        },
+        {
+          "month": "2026-07",
+          "qty": 15
+        },
+        {
+          "month": "2026-08",
+          "qty": 17
+        },
+        {
+          "month": "2026-09",
+          "qty": 18
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 14.6
+        },
+        {
+          "month": "2026-11",
+          "qty": 15.5
+        },
+        {
+          "month": "2026-12",
+          "qty": 16.4
+        },
+        {
+          "month": "2027-01",
+          "qty": 18.3
+        },
+        {
+          "month": "2027-02",
+          "qty": 20.1
+        },
+        {
+          "month": "2027-03",
+          "qty": 20.1
+        },
+        {
+          "month": "2027-04",
+          "qty": 17.4
+        },
+        {
+          "month": "2027-05",
+          "qty": 16.4
+        },
+        {
+          "month": "2027-06",
+          "qty": 15.5
+        },
+        {
+          "month": "2027-07",
+          "qty": 13.7
+        },
+        {
+          "month": "2027-08",
+          "qty": 15.5
+        },
+        {
+          "month": "2027-09",
+          "qty": 16.4
+        }
+      ],
+      "h3": 46.5,
+      "h6": 105,
+      "h12": 199.9
+    },
+    {
+      "materialCode": "MAT-1002",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 81
+        },
+        {
+          "month": "2025-11",
+          "qty": 86
+        },
+        {
+          "month": "2025-12",
+          "qty": 90
+        },
+        {
+          "month": "2026-01",
+          "qty": 99
+        },
+        {
+          "month": "2026-02",
+          "qty": 112
+        },
+        {
+          "month": "2026-03",
+          "qty": 108
+        },
+        {
+          "month": "2026-04",
+          "qty": 94
+        },
+        {
+          "month": "2026-05",
+          "qty": 90
+        },
+        {
+          "month": "2026-06",
+          "qty": 86
+        },
+        {
+          "month": "2026-07",
+          "qty": 76
+        },
+        {
+          "month": "2026-08",
+          "qty": 86
+        },
+        {
+          "month": "2026-09",
+          "qty": 90
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 74.4
+        },
+        {
+          "month": "2026-11",
+          "qty": 79
+        },
+        {
+          "month": "2026-12",
+          "qty": 82.6
+        },
+        {
+          "month": "2027-01",
+          "qty": 90.9
+        },
+        {
+          "month": "2027-02",
+          "qty": 102.8
+        },
+        {
+          "month": "2027-03",
+          "qty": 99.1
+        },
+        {
+          "month": "2027-04",
+          "qty": 86.3
+        },
+        {
+          "month": "2027-05",
+          "qty": 82.6
+        },
+        {
+          "month": "2027-06",
+          "qty": 79
+        },
+        {
+          "month": "2027-07",
+          "qty": 69.8
+        },
+        {
+          "month": "2027-08",
+          "qty": 79
+        },
+        {
+          "month": "2027-09",
+          "qty": 82.6
+        }
+      ],
+      "h3": 236,
+      "h6": 528.8,
+      "h12": 1008.1
+    },
+    {
+      "materialCode": "MAT-1003",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 0
+        },
+        {
+          "month": "2025-11",
+          "qty": 2
+        },
+        {
+          "month": "2025-12",
+          "qty": 0
+        },
+        {
+          "month": "2026-01",
+          "qty": 0
+        },
+        {
+          "month": "2026-02",
+          "qty": 2
+        },
+        {
+          "month": "2026-03",
+          "qty": 0
+        },
+        {
+          "month": "2026-04",
+          "qty": 0
+        },
+        {
+          "month": "2026-05",
+          "qty": 2
+        },
+        {
+          "month": "2026-06",
+          "qty": 0
+        },
+        {
+          "month": "2026-07",
+          "qty": 0
+        },
+        {
+          "month": "2026-08",
+          "qty": 0
+        },
+        {
+          "month": "2026-09",
+          "qty": 2
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 0
+        },
+        {
+          "month": "2026-11",
+          "qty": 2
+        },
+        {
+          "month": "2026-12",
+          "qty": 0
+        },
+        {
+          "month": "2027-01",
+          "qty": 0
+        },
+        {
+          "month": "2027-02",
+          "qty": 2
+        },
+        {
+          "month": "2027-03",
+          "qty": 0
+        },
+        {
+          "month": "2027-04",
+          "qty": 0
+        },
+        {
+          "month": "2027-05",
+          "qty": 2
+        },
+        {
+          "month": "2027-06",
+          "qty": 0
+        },
+        {
+          "month": "2027-07",
+          "qty": 0
+        },
+        {
+          "month": "2027-08",
+          "qty": 0
+        },
+        {
+          "month": "2027-09",
+          "qty": 2
+        }
+      ],
+      "h3": 2,
+      "h6": 4,
+      "h12": 8
+    },
+    {
+      "materialCode": "MAT-1004",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 11
+        },
+        {
+          "month": "2025-11",
+          "qty": 11
+        },
+        {
+          "month": "2025-12",
+          "qty": 12
+        },
+        {
+          "month": "2026-01",
+          "qty": 13
+        },
+        {
+          "month": "2026-02",
+          "qty": 15
+        },
+        {
+          "month": "2026-03",
+          "qty": 14
+        },
+        {
+          "month": "2026-04",
+          "qty": 13
+        },
+        {
+          "month": "2026-05",
+          "qty": 12
+        },
+        {
+          "month": "2026-06",
+          "qty": 11
+        },
+        {
+          "month": "2026-07",
+          "qty": 10
+        },
+        {
+          "month": "2026-08",
+          "qty": 11
+        },
+        {
+          "month": "2026-09",
+          "qty": 12
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 10
+        },
+        {
+          "month": "2026-11",
+          "qty": 10
+        },
+        {
+          "month": "2026-12",
+          "qty": 10.9
+        },
+        {
+          "month": "2027-01",
+          "qty": 11.8
+        },
+        {
+          "month": "2027-02",
+          "qty": 13.7
+        },
+        {
+          "month": "2027-03",
+          "qty": 12.7
+        },
+        {
+          "month": "2027-04",
+          "qty": 11.8
+        },
+        {
+          "month": "2027-05",
+          "qty": 10.9
+        },
+        {
+          "month": "2027-06",
+          "qty": 10
+        },
+        {
+          "month": "2027-07",
+          "qty": 9.1
+        },
+        {
+          "month": "2027-08",
+          "qty": 10
+        },
+        {
+          "month": "2027-09",
+          "qty": 10.9
+        }
+      ],
+      "h3": 30.9,
+      "h6": 69.1,
+      "h12": 131.8
+    },
+    {
+      "materialCode": "MAT-1005",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 20
+        },
+        {
+          "month": "2025-11",
+          "qty": 21
+        },
+        {
+          "month": "2025-12",
+          "qty": 22
+        },
+        {
+          "month": "2026-01",
+          "qty": 24
+        },
+        {
+          "month": "2026-02",
+          "qty": 28
+        },
+        {
+          "month": "2026-03",
+          "qty": 26
+        },
+        {
+          "month": "2026-04",
+          "qty": 23
+        },
+        {
+          "month": "2026-05",
+          "qty": 22
+        },
+        {
+          "month": "2026-06",
+          "qty": 21
+        },
+        {
+          "month": "2026-07",
+          "qty": 19
+        },
+        {
+          "month": "2026-08",
+          "qty": 21
+        },
+        {
+          "month": "2026-09",
+          "qty": 22
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 18.4
+        },
+        {
+          "month": "2026-11",
+          "qty": 19.4
+        },
+        {
+          "month": "2026-12",
+          "qty": 20.3
+        },
+        {
+          "month": "2027-01",
+          "qty": 22.1
+        },
+        {
+          "month": "2027-02",
+          "qty": 25.8
+        },
+        {
+          "month": "2027-03",
+          "qty": 24
+        },
+        {
+          "month": "2027-04",
+          "qty": 21.2
+        },
+        {
+          "month": "2027-05",
+          "qty": 20.3
+        },
+        {
+          "month": "2027-06",
+          "qty": 19.4
+        },
+        {
+          "month": "2027-07",
+          "qty": 17.5
+        },
+        {
+          "month": "2027-08",
+          "qty": 19.4
+        },
+        {
+          "month": "2027-09",
+          "qty": 20.3
+        }
+      ],
+      "h3": 58.1,
+      "h6": 130,
+      "h12": 248.1
+    },
+    {
+      "materialCode": "MAT-1006",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 0
+        },
+        {
+          "month": "2025-11",
+          "qty": 0
+        },
+        {
+          "month": "2025-12",
+          "qty": 0
+        },
+        {
+          "month": "2026-01",
+          "qty": 0
+        },
+        {
+          "month": "2026-02",
+          "qty": 0
+        },
+        {
+          "month": "2026-03",
+          "qty": 0
+        },
+        {
+          "month": "2026-04",
+          "qty": 0
+        },
+        {
+          "month": "2026-05",
+          "qty": 0
+        },
+        {
+          "month": "2026-06",
+          "qty": 0
+        },
+        {
+          "month": "2026-07",
+          "qty": 0
+        },
+        {
+          "month": "2026-08",
+          "qty": 0
+        },
+        {
+          "month": "2026-09",
+          "qty": 0
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 0
+        },
+        {
+          "month": "2026-11",
+          "qty": 0
+        },
+        {
+          "month": "2026-12",
+          "qty": 0
+        },
+        {
+          "month": "2027-01",
+          "qty": 0
+        },
+        {
+          "month": "2027-02",
+          "qty": 0
+        },
+        {
+          "month": "2027-03",
+          "qty": 0
+        },
+        {
+          "month": "2027-04",
+          "qty": 0
+        },
+        {
+          "month": "2027-05",
+          "qty": 0
+        },
+        {
+          "month": "2027-06",
+          "qty": 0
+        },
+        {
+          "month": "2027-07",
+          "qty": 0
+        },
+        {
+          "month": "2027-08",
+          "qty": 0
+        },
+        {
+          "month": "2027-09",
+          "qty": 0
+        }
+      ],
+      "h3": 0,
+      "h6": 0,
+      "h12": 0
+    },
+    {
+      "materialCode": "MAT-1007",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 13
+        },
+        {
+          "month": "2025-11",
+          "qty": 13
+        },
+        {
+          "month": "2025-12",
+          "qty": 14
+        },
+        {
+          "month": "2026-01",
+          "qty": 15
+        },
+        {
+          "month": "2026-02",
+          "qty": 18
+        },
+        {
+          "month": "2026-03",
+          "qty": 17
+        },
+        {
+          "month": "2026-04",
+          "qty": 15
+        },
+        {
+          "month": "2026-05",
+          "qty": 14
+        },
+        {
+          "month": "2026-06",
+          "qty": 13
+        },
+        {
+          "month": "2026-07",
+          "qty": 12
+        },
+        {
+          "month": "2026-08",
+          "qty": 13
+        },
+        {
+          "month": "2026-09",
+          "qty": 14
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 11.9
+        },
+        {
+          "month": "2026-11",
+          "qty": 11.9
+        },
+        {
+          "month": "2026-12",
+          "qty": 12.8
+        },
+        {
+          "month": "2027-01",
+          "qty": 13.7
+        },
+        {
+          "month": "2027-02",
+          "qty": 16.4
+        },
+        {
+          "month": "2027-03",
+          "qty": 15.5
+        },
+        {
+          "month": "2027-04",
+          "qty": 13.7
+        },
+        {
+          "month": "2027-05",
+          "qty": 12.8
+        },
+        {
+          "month": "2027-06",
+          "qty": 11.9
+        },
+        {
+          "month": "2027-07",
+          "qty": 10.9
+        },
+        {
+          "month": "2027-08",
+          "qty": 11.9
+        },
+        {
+          "month": "2027-09",
+          "qty": 12.8
+        }
+      ],
+      "h3": 36.6,
+      "h6": 82.2,
+      "h12": 156.2
+    },
+    {
+      "materialCode": "MAT-1008",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 3
+        },
+        {
+          "month": "2025-11",
+          "qty": 3
+        },
+        {
+          "month": "2025-12",
+          "qty": 3
+        },
+        {
+          "month": "2026-01",
+          "qty": 3
+        },
+        {
+          "month": "2026-02",
+          "qty": 4
+        },
+        {
+          "month": "2026-03",
+          "qty": 4
+        },
+        {
+          "month": "2026-04",
+          "qty": 3
+        },
+        {
+          "month": "2026-05",
+          "qty": 3
+        },
+        {
+          "month": "2026-06",
+          "qty": 3
+        },
+        {
+          "month": "2026-07",
+          "qty": 3
+        },
+        {
+          "month": "2026-08",
+          "qty": 3
+        },
+        {
+          "month": "2026-09",
+          "qty": 3
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 2.8
+        },
+        {
+          "month": "2026-11",
+          "qty": 2.8
+        },
+        {
+          "month": "2026-12",
+          "qty": 2.8
+        },
+        {
+          "month": "2027-01",
+          "qty": 2.8
+        },
+        {
+          "month": "2027-02",
+          "qty": 3.8
+        },
+        {
+          "month": "2027-03",
+          "qty": 3.8
+        },
+        {
+          "month": "2027-04",
+          "qty": 2.8
+        },
+        {
+          "month": "2027-05",
+          "qty": 2.8
+        },
+        {
+          "month": "2027-06",
+          "qty": 2.8
+        },
+        {
+          "month": "2027-07",
+          "qty": 2.8
+        },
+        {
+          "month": "2027-08",
+          "qty": 2.8
+        },
+        {
+          "month": "2027-09",
+          "qty": 2.8
+        }
+      ],
+      "h3": 8.4,
+      "h6": 18.8,
+      "h12": 35.6
+    },
+    {
+      "materialCode": "MAT-1009",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 54
+        },
+        {
+          "month": "2025-11",
+          "qty": 57
+        },
+        {
+          "month": "2025-12",
+          "qty": 60
+        },
+        {
+          "month": "2026-01",
+          "qty": 66
+        },
+        {
+          "month": "2026-02",
+          "qty": 75
+        },
+        {
+          "month": "2026-03",
+          "qty": 72
+        },
+        {
+          "month": "2026-04",
+          "qty": 63
+        },
+        {
+          "month": "2026-05",
+          "qty": 60
+        },
+        {
+          "month": "2026-06",
+          "qty": 57
+        },
+        {
+          "month": "2026-07",
+          "qty": 51
+        },
+        {
+          "month": "2026-08",
+          "qty": 57
+        },
+        {
+          "month": "2026-09",
+          "qty": 60
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 49.6
+        },
+        {
+          "month": "2026-11",
+          "qty": 52.3
+        },
+        {
+          "month": "2026-12",
+          "qty": 55.1
+        },
+        {
+          "month": "2027-01",
+          "qty": 60.6
+        },
+        {
+          "month": "2027-02",
+          "qty": 68.9
+        },
+        {
+          "month": "2027-03",
+          "qty": 66.1
+        },
+        {
+          "month": "2027-04",
+          "qty": 57.8
+        },
+        {
+          "month": "2027-05",
+          "qty": 55.1
+        },
+        {
+          "month": "2027-06",
+          "qty": 52.3
+        },
+        {
+          "month": "2027-07",
+          "qty": 46.8
+        },
+        {
+          "month": "2027-08",
+          "qty": 52.3
+        },
+        {
+          "month": "2027-09",
+          "qty": 55.1
+        }
+      ],
+      "h3": 157,
+      "h6": 352.6,
+      "h12": 672
+    },
+    {
+      "materialCode": "MAT-1010",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 0
+        },
+        {
+          "month": "2025-11",
+          "qty": 0
+        },
+        {
+          "month": "2025-12",
+          "qty": 0
+        },
+        {
+          "month": "2026-01",
+          "qty": 0
+        },
+        {
+          "month": "2026-02",
+          "qty": 0
+        },
+        {
+          "month": "2026-03",
+          "qty": 0
+        },
+        {
+          "month": "2026-04",
+          "qty": 0
+        },
+        {
+          "month": "2026-05",
+          "qty": 0
+        },
+        {
+          "month": "2026-06",
+          "qty": 0
+        },
+        {
+          "month": "2026-07",
+          "qty": 0
+        },
+        {
+          "month": "2026-08",
+          "qty": 0
+        },
+        {
+          "month": "2026-09",
+          "qty": 0
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 0
+        },
+        {
+          "month": "2026-11",
+          "qty": 0
+        },
+        {
+          "month": "2026-12",
+          "qty": 0
+        },
+        {
+          "month": "2027-01",
+          "qty": 0
+        },
+        {
+          "month": "2027-02",
+          "qty": 0
+        },
+        {
+          "month": "2027-03",
+          "qty": 0
+        },
+        {
+          "month": "2027-04",
+          "qty": 0
+        },
+        {
+          "month": "2027-05",
+          "qty": 0
+        },
+        {
+          "month": "2027-06",
+          "qty": 0
+        },
+        {
+          "month": "2027-07",
+          "qty": 0
+        },
+        {
+          "month": "2027-08",
+          "qty": 0
+        },
+        {
+          "month": "2027-09",
+          "qty": 0
+        }
+      ],
+      "h3": 0,
+      "h6": 0,
+      "h12": 0
+    },
+    {
+      "materialCode": "MAT-1011",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 14
+        },
+        {
+          "month": "2025-11",
+          "qty": 15
+        },
+        {
+          "month": "2025-12",
+          "qty": 16
+        },
+        {
+          "month": "2026-01",
+          "qty": 18
+        },
+        {
+          "month": "2026-02",
+          "qty": 20
+        },
+        {
+          "month": "2026-03",
+          "qty": 19
+        },
+        {
+          "month": "2026-04",
+          "qty": 17
+        },
+        {
+          "month": "2026-05",
+          "qty": 16
+        },
+        {
+          "month": "2026-06",
+          "qty": 15
+        },
+        {
+          "month": "2026-07",
+          "qty": 14
+        },
+        {
+          "month": "2026-08",
+          "qty": 15
+        },
+        {
+          "month": "2026-09",
+          "qty": 16
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 12.9
+        },
+        {
+          "month": "2026-11",
+          "qty": 13.8
+        },
+        {
+          "month": "2026-12",
+          "qty": 14.8
+        },
+        {
+          "month": "2027-01",
+          "qty": 16.6
+        },
+        {
+          "month": "2027-02",
+          "qty": 18.5
+        },
+        {
+          "month": "2027-03",
+          "qty": 17.5
+        },
+        {
+          "month": "2027-04",
+          "qty": 15.7
+        },
+        {
+          "month": "2027-05",
+          "qty": 14.8
+        },
+        {
+          "month": "2027-06",
+          "qty": 13.8
+        },
+        {
+          "month": "2027-07",
+          "qty": 12.9
+        },
+        {
+          "month": "2027-08",
+          "qty": 13.8
+        },
+        {
+          "month": "2027-09",
+          "qty": 14.8
+        }
+      ],
+      "h3": 41.5,
+      "h6": 94.1,
+      "h12": 179.9
+    },
+    {
+      "materialCode": "MAT-1012",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 162
+        },
+        {
+          "month": "2025-11",
+          "qty": 171
+        },
+        {
+          "month": "2025-12",
+          "qty": 180
+        },
+        {
+          "month": "2026-01",
+          "qty": 198
+        },
+        {
+          "month": "2026-02",
+          "qty": 225
+        },
+        {
+          "month": "2026-03",
+          "qty": 216
+        },
+        {
+          "month": "2026-04",
+          "qty": 189
+        },
+        {
+          "month": "2026-05",
+          "qty": 180
+        },
+        {
+          "month": "2026-06",
+          "qty": 171
+        },
+        {
+          "month": "2026-07",
+          "qty": 153
+        },
+        {
+          "month": "2026-08",
+          "qty": 171
+        },
+        {
+          "month": "2026-09",
+          "qty": 180
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 148.7
+        },
+        {
+          "month": "2026-11",
+          "qty": 157
+        },
+        {
+          "month": "2026-12",
+          "qty": 165.2
+        },
+        {
+          "month": "2027-01",
+          "qty": 181.8
+        },
+        {
+          "month": "2027-02",
+          "qty": 206.6
+        },
+        {
+          "month": "2027-03",
+          "qty": 198.3
+        },
+        {
+          "month": "2027-04",
+          "qty": 173.5
+        },
+        {
+          "month": "2027-05",
+          "qty": 165.2
+        },
+        {
+          "month": "2027-06",
+          "qty": 157
+        },
+        {
+          "month": "2027-07",
+          "qty": 140.5
+        },
+        {
+          "month": "2027-08",
+          "qty": 157
+        },
+        {
+          "month": "2027-09",
+          "qty": 165.2
+        }
+      ],
+      "h3": 470.9,
+      "h6": 1057.6,
+      "h12": 2016
+    },
+    {
+      "materialCode": "MAT-1013",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 108
+        },
+        {
+          "month": "2025-11",
+          "qty": 114
+        },
+        {
+          "month": "2025-12",
+          "qty": 120
+        },
+        {
+          "month": "2026-01",
+          "qty": 132
+        },
+        {
+          "month": "2026-02",
+          "qty": 150
+        },
+        {
+          "month": "2026-03",
+          "qty": 144
+        },
+        {
+          "month": "2026-04",
+          "qty": 126
+        },
+        {
+          "month": "2026-05",
+          "qty": 120
+        },
+        {
+          "month": "2026-06",
+          "qty": 114
+        },
+        {
+          "month": "2026-07",
+          "qty": 102
+        },
+        {
+          "month": "2026-08",
+          "qty": 114
+        },
+        {
+          "month": "2026-09",
+          "qty": 120
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 99.1
+        },
+        {
+          "month": "2026-11",
+          "qty": 104.7
+        },
+        {
+          "month": "2026-12",
+          "qty": 110.2
+        },
+        {
+          "month": "2027-01",
+          "qty": 121.2
+        },
+        {
+          "month": "2027-02",
+          "qty": 137.7
+        },
+        {
+          "month": "2027-03",
+          "qty": 132.2
+        },
+        {
+          "month": "2027-04",
+          "qty": 115.7
+        },
+        {
+          "month": "2027-05",
+          "qty": 110.2
+        },
+        {
+          "month": "2027-06",
+          "qty": 104.7
+        },
+        {
+          "month": "2027-07",
+          "qty": 93.6
+        },
+        {
+          "month": "2027-08",
+          "qty": 104.7
+        },
+        {
+          "month": "2027-09",
+          "qty": 110.2
+        }
+      ],
+      "h3": 314,
+      "h6": 705.1,
+      "h12": 1344.2
+    },
+    {
+      "materialCode": "MAT-1014",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 0
+        },
+        {
+          "month": "2025-11",
+          "qty": 2
+        },
+        {
+          "month": "2025-12",
+          "qty": 0
+        },
+        {
+          "month": "2026-01",
+          "qty": 0
+        },
+        {
+          "month": "2026-02",
+          "qty": 2
+        },
+        {
+          "month": "2026-03",
+          "qty": 0
+        },
+        {
+          "month": "2026-04",
+          "qty": 0
+        },
+        {
+          "month": "2026-05",
+          "qty": 2
+        },
+        {
+          "month": "2026-06",
+          "qty": 0
+        },
+        {
+          "month": "2026-07",
+          "qty": 0
+        },
+        {
+          "month": "2026-08",
+          "qty": 0
+        },
+        {
+          "month": "2026-09",
+          "qty": 2
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 0
+        },
+        {
+          "month": "2026-11",
+          "qty": 2
+        },
+        {
+          "month": "2026-12",
+          "qty": 0
+        },
+        {
+          "month": "2027-01",
+          "qty": 0
+        },
+        {
+          "month": "2027-02",
+          "qty": 2
+        },
+        {
+          "month": "2027-03",
+          "qty": 0
+        },
+        {
+          "month": "2027-04",
+          "qty": 0
+        },
+        {
+          "month": "2027-05",
+          "qty": 2
+        },
+        {
+          "month": "2027-06",
+          "qty": 0
+        },
+        {
+          "month": "2027-07",
+          "qty": 0
+        },
+        {
+          "month": "2027-08",
+          "qty": 0
+        },
+        {
+          "month": "2027-09",
+          "qty": 2
+        }
+      ],
+      "h3": 2,
+      "h6": 4,
+      "h12": 8
+    },
+    {
+      "materialCode": "MAT-1015",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 0
+        },
+        {
+          "month": "2025-11",
+          "qty": 7
+        },
+        {
+          "month": "2025-12",
+          "qty": 0
+        },
+        {
+          "month": "2026-01",
+          "qty": 0
+        },
+        {
+          "month": "2026-02",
+          "qty": 7
+        },
+        {
+          "month": "2026-03",
+          "qty": 0
+        },
+        {
+          "month": "2026-04",
+          "qty": 0
+        },
+        {
+          "month": "2026-05",
+          "qty": 7
+        },
+        {
+          "month": "2026-06",
+          "qty": 0
+        },
+        {
+          "month": "2026-07",
+          "qty": 0
+        },
+        {
+          "month": "2026-08",
+          "qty": 0
+        },
+        {
+          "month": "2026-09",
+          "qty": 7
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 0
+        },
+        {
+          "month": "2026-11",
+          "qty": 7
+        },
+        {
+          "month": "2026-12",
+          "qty": 0
+        },
+        {
+          "month": "2027-01",
+          "qty": 0
+        },
+        {
+          "month": "2027-02",
+          "qty": 7
+        },
+        {
+          "month": "2027-03",
+          "qty": 0
+        },
+        {
+          "month": "2027-04",
+          "qty": 0
+        },
+        {
+          "month": "2027-05",
+          "qty": 7
+        },
+        {
+          "month": "2027-06",
+          "qty": 0
+        },
+        {
+          "month": "2027-07",
+          "qty": 0
+        },
+        {
+          "month": "2027-08",
+          "qty": 0
+        },
+        {
+          "month": "2027-09",
+          "qty": 7
+        }
+      ],
+      "h3": 7,
+      "h6": 14,
+      "h12": 28
+    },
+    {
+      "materialCode": "MAT-1016",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 7
+        },
+        {
+          "month": "2025-11",
+          "qty": 8
+        },
+        {
+          "month": "2025-12",
+          "qty": 8
+        },
+        {
+          "month": "2026-01",
+          "qty": 9
+        },
+        {
+          "month": "2026-02",
+          "qty": 10
+        },
+        {
+          "month": "2026-03",
+          "qty": 10
+        },
+        {
+          "month": "2026-04",
+          "qty": 8
+        },
+        {
+          "month": "2026-05",
+          "qty": 8
+        },
+        {
+          "month": "2026-06",
+          "qty": 8
+        },
+        {
+          "month": "2026-07",
+          "qty": 7
+        },
+        {
+          "month": "2026-08",
+          "qty": 8
+        },
+        {
+          "month": "2026-09",
+          "qty": 8
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 6.5
+        },
+        {
+          "month": "2026-11",
+          "qty": 7.4
+        },
+        {
+          "month": "2026-12",
+          "qty": 7.4
+        },
+        {
+          "month": "2027-01",
+          "qty": 8.4
+        },
+        {
+          "month": "2027-02",
+          "qty": 9.3
+        },
+        {
+          "month": "2027-03",
+          "qty": 9.3
+        },
+        {
+          "month": "2027-04",
+          "qty": 7.4
+        },
+        {
+          "month": "2027-05",
+          "qty": 7.4
+        },
+        {
+          "month": "2027-06",
+          "qty": 7.4
+        },
+        {
+          "month": "2027-07",
+          "qty": 6.5
+        },
+        {
+          "month": "2027-08",
+          "qty": 7.4
+        },
+        {
+          "month": "2027-09",
+          "qty": 7.4
+        }
+      ],
+      "h3": 21.3,
+      "h6": 48.3,
+      "h12": 91.8
+    },
+    {
+      "materialCode": "MAT-1017",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 18
+        },
+        {
+          "month": "2025-11",
+          "qty": 19
+        },
+        {
+          "month": "2025-12",
+          "qty": 20
+        },
+        {
+          "month": "2026-01",
+          "qty": 22
+        },
+        {
+          "month": "2026-02",
+          "qty": 25
+        },
+        {
+          "month": "2026-03",
+          "qty": 24
+        },
+        {
+          "month": "2026-04",
+          "qty": 21
+        },
+        {
+          "month": "2026-05",
+          "qty": 20
+        },
+        {
+          "month": "2026-06",
+          "qty": 19
+        },
+        {
+          "month": "2026-07",
+          "qty": 17
+        },
+        {
+          "month": "2026-08",
+          "qty": 19
+        },
+        {
+          "month": "2026-09",
+          "qty": 20
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 16.5
+        },
+        {
+          "month": "2026-11",
+          "qty": 17.4
+        },
+        {
+          "month": "2026-12",
+          "qty": 18.4
+        },
+        {
+          "month": "2027-01",
+          "qty": 20.2
+        },
+        {
+          "month": "2027-02",
+          "qty": 23
+        },
+        {
+          "month": "2027-03",
+          "qty": 22
+        },
+        {
+          "month": "2027-04",
+          "qty": 19.3
+        },
+        {
+          "month": "2027-05",
+          "qty": 18.4
+        },
+        {
+          "month": "2027-06",
+          "qty": 17.4
+        },
+        {
+          "month": "2027-07",
+          "qty": 15.6
+        },
+        {
+          "month": "2027-08",
+          "qty": 17.4
+        },
+        {
+          "month": "2027-09",
+          "qty": 18.4
+        }
+      ],
+      "h3": 52.3,
+      "h6": 117.5,
+      "h12": 224
+    },
+    {
+      "materialCode": "MAT-1018",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "history": [
+        {
+          "month": "2025-10",
+          "qty": 0
+        },
+        {
+          "month": "2025-11",
+          "qty": 0
+        },
+        {
+          "month": "2025-12",
+          "qty": 0
+        },
+        {
+          "month": "2026-01",
+          "qty": 0
+        },
+        {
+          "month": "2026-02",
+          "qty": 0
+        },
+        {
+          "month": "2026-03",
+          "qty": 0
+        },
+        {
+          "month": "2026-04",
+          "qty": 0
+        },
+        {
+          "month": "2026-05",
+          "qty": 0
+        },
+        {
+          "month": "2026-06",
+          "qty": 0
+        },
+        {
+          "month": "2026-07",
+          "qty": 0
+        },
+        {
+          "month": "2026-08",
+          "qty": 0
+        },
+        {
+          "month": "2026-09",
+          "qty": 0
+        }
+      ],
+      "future": [
+        {
+          "month": "2026-10",
+          "qty": 0
+        },
+        {
+          "month": "2026-11",
+          "qty": 0
+        },
+        {
+          "month": "2026-12",
+          "qty": 0
+        },
+        {
+          "month": "2027-01",
+          "qty": 0
+        },
+        {
+          "month": "2027-02",
+          "qty": 0
+        },
+        {
+          "month": "2027-03",
+          "qty": 0
+        },
+        {
+          "month": "2027-04",
+          "qty": 0
+        },
+        {
+          "month": "2027-05",
+          "qty": 0
+        },
+        {
+          "month": "2027-06",
+          "qty": 0
+        },
+        {
+          "month": "2027-07",
+          "qty": 0
+        },
+        {
+          "month": "2027-08",
+          "qty": 0
+        },
+        {
+          "month": "2027-09",
+          "qty": 0
+        }
+      ],
+      "h3": 0,
+      "h6": 0,
+      "h12": 0
+    }
+  ],
+  "alerts": [
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1001",
+      "description": "Bearing, spherical roller 22320",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 120,
+      "reorderPoint": 60,
+      "safetyStock": 30,
+      "lastConsumption": 17,
+      "materialType": "ZSPR",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1002",
+      "description": "Gasket, spiral wound DN100",
+      "category": "Consumable",
+      "plant": "Plant-01",
+      "currentStock": 480,
+      "reorderPoint": 240,
+      "safetyStock": 120,
+      "lastConsumption": 86,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1003",
+      "description": "Rotor assembly, centrifugal pump",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 3,
+      "reorderPoint": 3,
+      "safetyStock": 2,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1003",
+      "description": "Rotor assembly, centrifugal pump",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 3,
+      "reorderPoint": 3,
+      "safetyStock": 2,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1004",
+      "description": "Contactor, 3-pole 40A",
+      "category": "Electrical",
+      "plant": "Plant-02",
+      "currentStock": 64,
+      "reorderPoint": 40,
+      "safetyStock": 20,
+      "lastConsumption": 11,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1005",
+      "description": "Proximity sensor, inductive M18",
+      "category": "Instrumentation",
+      "plant": "Plant-02",
+      "currentStock": 210,
+      "reorderPoint": 80,
+      "safetyStock": 40,
+      "lastConsumption": 21,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1006",
+      "description": "Gearbox, helical 55kW",
+      "category": "Mechanical",
+      "plant": "Plant-02",
+      "currentStock": 2,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "NON_MOVING",
+      "materialCode": "MAT-1006",
+      "description": "Gearbox, helical 55kW",
+      "category": "Mechanical",
+      "plant": "Plant-02",
+      "currentStock": 2,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1007",
+      "description": "Seal kit, mechanical pump",
+      "category": "Consumable",
+      "plant": "Plant-01",
+      "currentStock": 36,
+      "reorderPoint": 48,
+      "safetyStock": 24,
+      "lastConsumption": 13,
+      "materialType": "ZSPR",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1009",
+      "description": "V-belt SPB 2500",
+      "category": "Consumable",
+      "plant": "Plant-03",
+      "currentStock": 900,
+      "reorderPoint": 180,
+      "safetyStock": 90,
+      "lastConsumption": 57,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1009",
+      "description": "V-belt SPB 2500",
+      "category": "Consumable",
+      "plant": "Plant-03",
+      "currentStock": 900,
+      "reorderPoint": 180,
+      "safetyStock": 90,
+      "lastConsumption": 57,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1010",
+      "description": "Motor, HT 500kW 6.6kV",
+      "category": "Electrical",
+      "plant": "Plant-01",
+      "currentStock": 1,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "NON_MOVING",
+      "materialCode": "MAT-1010",
+      "description": "Motor, HT 500kW 6.6kV",
+      "category": "Electrical",
+      "plant": "Plant-01",
+      "currentStock": 1,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1011",
+      "description": "Solenoid valve, 2/2 way",
+      "category": "Instrumentation",
+      "plant": "Plant-02",
+      "currentStock": 140,
+      "reorderPoint": 60,
+      "safetyStock": 30,
+      "lastConsumption": 15,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1012",
+      "description": "Cable, XLPE 3C x 240mm2 (m)",
+      "category": "Electrical",
+      "plant": "Plant-03",
+      "currentStock": 2600,
+      "reorderPoint": 600,
+      "safetyStock": 300,
+      "lastConsumption": 171,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1012",
+      "description": "Cable, XLPE 3C x 240mm2 (m)",
+      "category": "Electrical",
+      "plant": "Plant-03",
+      "currentStock": 2600,
+      "reorderPoint": 600,
+      "safetyStock": 300,
+      "lastConsumption": 171,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1013",
+      "description": "Filter cartridge, 10 micron",
+      "category": "Consumable",
+      "plant": "Plant-01",
+      "currentStock": 1400,
+      "reorderPoint": 400,
+      "safetyStock": 200,
+      "lastConsumption": 114,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1014",
+      "description": "Turbine blade set, stage-2",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 2,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1014",
+      "description": "Turbine blade set, stage-2",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 2,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1015",
+      "description": "HMI panel, 10in touch",
+      "category": "Automation",
+      "plant": "Plant-03",
+      "currentStock": 9,
+      "reorderPoint": 6,
+      "safetyStock": 3,
+      "lastConsumption": 0,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1016",
+      "description": "Pressure transmitter 0-16bar",
+      "category": "Instrumentation",
+      "plant": "Plant-02",
+      "currentStock": 58,
+      "reorderPoint": 32,
+      "safetyStock": 16,
+      "lastConsumption": 8,
+      "materialType": "ZSPR",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1017",
+      "description": "Coupling, jaw spider L110",
+      "category": "Mechanical",
+      "plant": "Plant-03",
+      "currentStock": 320,
+      "reorderPoint": 80,
+      "safetyStock": 40,
+      "lastConsumption": 19,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1017",
+      "description": "Coupling, jaw spider L110",
+      "category": "Mechanical",
+      "plant": "Plant-03",
+      "currentStock": 320,
+      "reorderPoint": 80,
+      "safetyStock": 40,
+      "lastConsumption": 19,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1018",
+      "description": "Compressor cartridge, screw",
+      "category": "Mechanical",
+      "plant": "Plant-02",
+      "currentStock": 1,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "NON_MOVING",
+      "materialCode": "MAT-1018",
+      "description": "Compressor cartridge, screw",
+      "category": "Mechanical",
+      "plant": "Plant-02",
+      "currentStock": 1,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    }
+  ],
+  "recommendations": [
+    {
+      "materialCode": "MAT-1001",
+      "plant": "Plant-01",
+      "category": "Mechanical",
+      "recommend": false,
+      "raiseByDate": "2026-12-10",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 109 > trigger 60 over 21-day lead time",
+      "currentStock": 120,
+      "forecastOverLeadTime": 10.85,
+      "reorderPoint": 60,
+      "safetyStock": 30,
+      "leadTimeDays": 21,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1002",
+      "plant": "Plant-01",
+      "category": "Consumable",
+      "recommend": false,
+      "raiseByDate": "2026-11-20",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 443 > trigger 240 over 14-day lead time",
+      "currentStock": 480,
+      "forecastOverLeadTime": 36.71,
+      "reorderPoint": 240,
+      "safetyStock": 120,
+      "leadTimeDays": 14,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1003",
+      "plant": "Plant-01",
+      "category": "Mechanical",
+      "recommend": true,
+      "raiseByDate": "2026-03-05",
+      "qty": 6,
+      "advisory": true,
+      "reason": "Projected stock -1 ≤ trigger 3 after 4 forecast demand over 180-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 3,
+      "forecastOverLeadTime": 4,
+      "reorderPoint": 3,
+      "safetyStock": 2,
+      "leadTimeDays": 180,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1004",
+      "plant": "Plant-02",
+      "category": "Electrical",
+      "recommend": false,
+      "raiseByDate": "2026-10-31",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 54 > trigger 40 over 28-day lead time",
+      "currentStock": 64,
+      "forecastOverLeadTime": 9.61,
+      "reorderPoint": 40,
+      "safetyStock": 20,
+      "leadTimeDays": 28,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1005",
+      "plant": "Plant-02",
+      "category": "Instrumentation",
+      "recommend": false,
+      "raiseByDate": "2027-02-25",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 196 > trigger 80 over 21-day lead time",
+      "currentStock": 210,
+      "forecastOverLeadTime": 13.56,
+      "reorderPoint": 80,
+      "safetyStock": 40,
+      "leadTimeDays": 21,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1006",
+      "plant": "Plant-02",
+      "category": "Mechanical",
+      "recommend": true,
+      "raiseByDate": "2026-01-04",
+      "qty": 1,
+      "advisory": true,
+      "reason": "Projected stock 2 ≤ trigger 2 after 0 forecast demand over 240-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 2,
+      "forecastOverLeadTime": 0,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "leadTimeDays": 240,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1007",
+      "plant": "Plant-01",
+      "category": "Consumable",
+      "recommend": true,
+      "raiseByDate": "2026-08-02",
+      "qty": 49,
+      "advisory": true,
+      "reason": "Projected stock 24 ≤ trigger 48 after 12 forecast demand over 30-day lead time",
+      "currentStock": 36,
+      "forecastOverLeadTime": 12.2,
+      "reorderPoint": 48,
+      "safetyStock": 24,
+      "leadTimeDays": 30,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1008",
+      "plant": "Plant-03",
+      "category": "Automation",
+      "recommend": false,
+      "raiseByDate": "2026-10-31",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 14 > trigger 12 over 45-day lead time",
+      "currentStock": 18,
+      "forecastOverLeadTime": 4.2,
+      "reorderPoint": 12,
+      "safetyStock": 6,
+      "leadTimeDays": 45,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1009",
+      "plant": "Plant-03",
+      "category": "Consumable",
+      "recommend": false,
+      "raiseByDate": "2027-08-27",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 883 > trigger 180 over 10-day lead time",
+      "currentStock": 900,
+      "forecastOverLeadTime": 17.44,
+      "reorderPoint": 180,
+      "safetyStock": 90,
+      "leadTimeDays": 10,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1010",
+      "plant": "Plant-01",
+      "category": "Electrical",
+      "recommend": true,
+      "raiseByDate": "2025-11-05",
+      "qty": 1,
+      "advisory": true,
+      "reason": "Projected stock 1 ≤ trigger 1 after 0 forecast demand over 300-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 1,
+      "forecastOverLeadTime": 0,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "leadTimeDays": 300,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1011",
+      "plant": "Plant-02",
+      "category": "Instrumentation",
+      "recommend": false,
+      "raiseByDate": "2027-01-29",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 130 > trigger 60 over 21-day lead time",
+      "currentStock": 140,
+      "forecastOverLeadTime": 9.68,
+      "reorderPoint": 60,
+      "safetyStock": 30,
+      "leadTimeDays": 21,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1012",
+      "plant": "Plant-03",
+      "category": "Electrical",
+      "recommend": false,
+      "raiseByDate": "2027-07-31",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 2417 > trigger 600 over 35-day lead time",
+      "currentStock": 2600,
+      "forecastOverLeadTime": 183.13,
+      "reorderPoint": 600,
+      "safetyStock": 300,
+      "leadTimeDays": 35,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1013",
+      "plant": "Plant-01",
+      "category": "Consumable",
+      "recommend": false,
+      "raiseByDate": "2027-05-09",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 1351 > trigger 400 over 14-day lead time",
+      "currentStock": 1400,
+      "forecastOverLeadTime": 48.84,
+      "reorderPoint": 400,
+      "safetyStock": 200,
+      "leadTimeDays": 14,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1014",
+      "plant": "Plant-01",
+      "category": "Mechanical",
+      "recommend": true,
+      "raiseByDate": "2025-12-05",
+      "qty": 7,
+      "advisory": true,
+      "reason": "Projected stock -4 ≤ trigger 2 after 6 forecast demand over 270-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 2,
+      "forecastOverLeadTime": 6,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "leadTimeDays": 270,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1015",
+      "plant": "Plant-03",
+      "category": "Automation",
+      "recommend": true,
+      "raiseByDate": "2026-07-21",
+      "qty": 4,
+      "advisory": true,
+      "reason": "Projected stock 6 ≤ trigger 6 after 3 forecast demand over 42-day lead time",
+      "currentStock": 9,
+      "forecastOverLeadTime": 3.27,
+      "reorderPoint": 6,
+      "safetyStock": 3,
+      "leadTimeDays": 42,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1016",
+      "plant": "Plant-02",
+      "category": "Instrumentation",
+      "recommend": false,
+      "raiseByDate": "2026-12-08",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 51 > trigger 32 over 28-day lead time",
+      "currentStock": 58,
+      "forecastOverLeadTime": 6.63,
+      "reorderPoint": 32,
+      "safetyStock": 16,
+      "leadTimeDays": 28,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1017",
+      "plant": "Plant-03",
+      "category": "Mechanical",
+      "recommend": false,
+      "raiseByDate": "2027-08-27",
+      "qty": 0,
+      "advisory": true,
+      "reason": "Cover holds: projected 308 > trigger 80 over 21-day lead time",
+      "currentStock": 320,
+      "forecastOverLeadTime": 12.2,
+      "reorderPoint": 80,
+      "safetyStock": 40,
+      "leadTimeDays": 21,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1018",
+      "plant": "Plant-02",
+      "category": "Mechanical",
+      "recommend": true,
+      "raiseByDate": "2026-02-03",
+      "qty": 1,
+      "advisory": true,
+      "reason": "Projected stock 1 ≤ trigger 1 after 0 forecast demand over 210-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 1,
+      "forecastOverLeadTime": 0,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "leadTimeDays": 210,
+      "longLead": true
+    }
+  ]
 }
