@@ -1,0 +1,8 @@
+{
+  "generatedAt": null,
+  "note": "Placeholder analysis bundle. Replaced by the analysis/forecast pipeline in a later ticket. Shape: { kpis, forecasts, alerts, recommendations }.",
+  "kpis": [],
+  "forecasts": [],
+  "alerts": [],
+  "recommendations": []
+}
