@@ -1,0 +1,673 @@
+{
+  "generatedAt": "2026-09-22T16:07:52.672Z",
+  "meta": {
+    "snapshotDate": "2026-09-01",
+    "materialCount": 18,
+    "forecastMethod": "seasonal-naive-baseline",
+    "forecastEngine": "MCP engine not reachable this run — transparent seasonal-naive baseline over Monthly_Consumption",
+    "dataGaps": [
+      "The SAP extract carries no PR/PO history — purchase-requisition timing is DERIVED (stock + forecast demand over lead time vs reorder point / safety stock) and every recommendation is advisory.",
+      "This dataset is the mock extract described in the brief, encoded deterministically by scripts/build_fixtures.py; it is not a live SAP feed."
+    ]
+  },
+  "kpiRows": [
+    [
+      "Snapshot date",
+      "2026-09-01",
+      "SAP extract snapshot"
+    ],
+    [
+      "Materials in scope",
+      18,
+      "across plants and categories"
+    ],
+    [
+      "Gross inventory value",
+      23353400,
+      "INR"
+    ],
+    [
+      "Average days on hand (moving)",
+      210,
+      "days"
+    ],
+    [
+      "Average turnover",
+      1.48,
+      "x per year"
+    ],
+    [
+      "Non-moving items (NMI)",
+      3,
+      "count"
+    ],
+    [
+      "NMI value",
+      7950000,
+      "INR — frozen capital"
+    ],
+    [
+      "Slow-moving items (SMI)",
+      3,
+      "count"
+    ],
+    [
+      "SMI value",
+      7482000,
+      "INR"
+    ],
+    [
+      "Forecast accuracy",
+      87.8,
+      "% (back-test)"
+    ],
+    [
+      "Critical spares total",
+      9,
+      "count"
+    ],
+    [
+      "Critical spares available",
+      3,
+      "count"
+    ],
+    [
+      "Critical-spares availability",
+      33.33,
+      "%"
+    ],
+    [
+      "Forecast engine",
+      "MCP engine not reachable this run — transparent seasonal-naive baseline over Monthly_Consumption",
+      "from the analysis bundle"
+    ]
+  ],
+  "prRecommendations": [
+    {
+      "materialCode": "MAT-1010",
+      "plant": "Plant-01",
+      "category": "Electrical",
+      "recommend": true,
+      "raiseByDate": "2025-11-05",
+      "qty": 1,
+      "advisory": true,
+      "reason": "Projected stock 1 ≤ trigger 1 after 0 forecast demand over 300-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 1,
+      "forecastOverLeadTime": 0,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "leadTimeDays": 300,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1014",
+      "plant": "Plant-01",
+      "category": "Mechanical",
+      "recommend": true,
+      "raiseByDate": "2025-12-05",
+      "qty": 7,
+      "advisory": true,
+      "reason": "Projected stock -4 ≤ trigger 2 after 6 forecast demand over 270-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 2,
+      "forecastOverLeadTime": 6,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "leadTimeDays": 270,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1006",
+      "plant": "Plant-02",
+      "category": "Mechanical",
+      "recommend": true,
+      "raiseByDate": "2026-01-04",
+      "qty": 1,
+      "advisory": true,
+      "reason": "Projected stock 2 ≤ trigger 2 after 0 forecast demand over 240-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 2,
+      "forecastOverLeadTime": 0,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "leadTimeDays": 240,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1018",
+      "plant": "Plant-02",
+      "category": "Mechanical",
+      "recommend": true,
+      "raiseByDate": "2026-02-03",
+      "qty": 1,
+      "advisory": true,
+      "reason": "Projected stock 1 ≤ trigger 1 after 0 forecast demand over 210-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 1,
+      "forecastOverLeadTime": 0,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "leadTimeDays": 210,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1003",
+      "plant": "Plant-01",
+      "category": "Mechanical",
+      "recommend": true,
+      "raiseByDate": "2026-03-05",
+      "qty": 6,
+      "advisory": true,
+      "reason": "Projected stock -1 ≤ trigger 3 after 4 forecast demand over 180-day lead time (long-lead ZSPN spare — raise early)",
+      "currentStock": 3,
+      "forecastOverLeadTime": 4,
+      "reorderPoint": 3,
+      "safetyStock": 2,
+      "leadTimeDays": 180,
+      "longLead": true
+    },
+    {
+      "materialCode": "MAT-1015",
+      "plant": "Plant-03",
+      "category": "Automation",
+      "recommend": true,
+      "raiseByDate": "2026-07-21",
+      "qty": 4,
+      "advisory": true,
+      "reason": "Projected stock 6 ≤ trigger 6 after 3 forecast demand over 42-day lead time",
+      "currentStock": 9,
+      "forecastOverLeadTime": 3.27,
+      "reorderPoint": 6,
+      "safetyStock": 3,
+      "leadTimeDays": 42,
+      "longLead": false
+    },
+    {
+      "materialCode": "MAT-1007",
+      "plant": "Plant-01",
+      "category": "Consumable",
+      "recommend": true,
+      "raiseByDate": "2026-08-02",
+      "qty": 49,
+      "advisory": true,
+      "reason": "Projected stock 24 ≤ trigger 48 after 12 forecast demand over 30-day lead time",
+      "currentStock": 36,
+      "forecastOverLeadTime": 12.2,
+      "reorderPoint": 48,
+      "safetyStock": 24,
+      "leadTimeDays": 30,
+      "longLead": false
+    }
+  ],
+  "alerts": [
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1001",
+      "description": "Bearing, spherical roller 22320",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 120,
+      "reorderPoint": 60,
+      "safetyStock": 30,
+      "lastConsumption": 17,
+      "materialType": "ZSPR",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1002",
+      "description": "Gasket, spiral wound DN100",
+      "category": "Consumable",
+      "plant": "Plant-01",
+      "currentStock": 480,
+      "reorderPoint": 240,
+      "safetyStock": 120,
+      "lastConsumption": 86,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1003",
+      "description": "Rotor assembly, centrifugal pump",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 3,
+      "reorderPoint": 3,
+      "safetyStock": 2,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1003",
+      "description": "Rotor assembly, centrifugal pump",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 3,
+      "reorderPoint": 3,
+      "safetyStock": 2,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1004",
+      "description": "Contactor, 3-pole 40A",
+      "category": "Electrical",
+      "plant": "Plant-02",
+      "currentStock": 64,
+      "reorderPoint": 40,
+      "safetyStock": 20,
+      "lastConsumption": 11,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1005",
+      "description": "Proximity sensor, inductive M18",
+      "category": "Instrumentation",
+      "plant": "Plant-02",
+      "currentStock": 210,
+      "reorderPoint": 80,
+      "safetyStock": 40,
+      "lastConsumption": 21,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1006",
+      "description": "Gearbox, helical 55kW",
+      "category": "Mechanical",
+      "plant": "Plant-02",
+      "currentStock": 2,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "NON_MOVING",
+      "materialCode": "MAT-1006",
+      "description": "Gearbox, helical 55kW",
+      "category": "Mechanical",
+      "plant": "Plant-02",
+      "currentStock": 2,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1007",
+      "description": "Seal kit, mechanical pump",
+      "category": "Consumable",
+      "plant": "Plant-01",
+      "currentStock": 36,
+      "reorderPoint": 48,
+      "safetyStock": 24,
+      "lastConsumption": 13,
+      "materialType": "ZSPR",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1009",
+      "description": "V-belt SPB 2500",
+      "category": "Consumable",
+      "plant": "Plant-03",
+      "currentStock": 900,
+      "reorderPoint": 180,
+      "safetyStock": 90,
+      "lastConsumption": 57,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1009",
+      "description": "V-belt SPB 2500",
+      "category": "Consumable",
+      "plant": "Plant-03",
+      "currentStock": 900,
+      "reorderPoint": 180,
+      "safetyStock": 90,
+      "lastConsumption": 57,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1010",
+      "description": "Motor, HT 500kW 6.6kV",
+      "category": "Electrical",
+      "plant": "Plant-01",
+      "currentStock": 1,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "NON_MOVING",
+      "materialCode": "MAT-1010",
+      "description": "Motor, HT 500kW 6.6kV",
+      "category": "Electrical",
+      "plant": "Plant-01",
+      "currentStock": 1,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1011",
+      "description": "Solenoid valve, 2/2 way",
+      "category": "Instrumentation",
+      "plant": "Plant-02",
+      "currentStock": 140,
+      "reorderPoint": 60,
+      "safetyStock": 30,
+      "lastConsumption": 15,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1012",
+      "description": "Cable, XLPE 3C x 240mm2 (m)",
+      "category": "Electrical",
+      "plant": "Plant-03",
+      "currentStock": 2600,
+      "reorderPoint": 600,
+      "safetyStock": 300,
+      "lastConsumption": 171,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1012",
+      "description": "Cable, XLPE 3C x 240mm2 (m)",
+      "category": "Electrical",
+      "plant": "Plant-03",
+      "currentStock": 2600,
+      "reorderPoint": 600,
+      "safetyStock": 300,
+      "lastConsumption": 171,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1013",
+      "description": "Filter cartridge, 10 micron",
+      "category": "Consumable",
+      "plant": "Plant-01",
+      "currentStock": 1400,
+      "reorderPoint": 400,
+      "safetyStock": 200,
+      "lastConsumption": 114,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1014",
+      "description": "Turbine blade set, stage-2",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 2,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1014",
+      "description": "Turbine blade set, stage-2",
+      "category": "Mechanical",
+      "plant": "Plant-01",
+      "currentStock": 2,
+      "reorderPoint": 2,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1015",
+      "description": "HMI panel, 10in touch",
+      "category": "Automation",
+      "plant": "Plant-03",
+      "currentStock": 9,
+      "reorderPoint": 6,
+      "safetyStock": 3,
+      "lastConsumption": 0,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1016",
+      "description": "Pressure transmitter 0-16bar",
+      "category": "Instrumentation",
+      "plant": "Plant-02",
+      "currentStock": 58,
+      "reorderPoint": 32,
+      "safetyStock": 16,
+      "lastConsumption": 8,
+      "materialType": "ZSPR",
+      "criticalSpare": true
+    },
+    {
+      "kind": "OVERSTOCK",
+      "materialCode": "MAT-1017",
+      "description": "Coupling, jaw spider L110",
+      "category": "Mechanical",
+      "plant": "Plant-03",
+      "currentStock": 320,
+      "reorderPoint": 80,
+      "safetyStock": 40,
+      "lastConsumption": 19,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "SLOW_MOVING",
+      "materialCode": "MAT-1017",
+      "description": "Coupling, jaw spider L110",
+      "category": "Mechanical",
+      "plant": "Plant-03",
+      "currentStock": 320,
+      "reorderPoint": 80,
+      "safetyStock": 40,
+      "lastConsumption": 19,
+      "materialType": "ZSPR",
+      "criticalSpare": false
+    },
+    {
+      "kind": "UNDERSTOCK",
+      "materialCode": "MAT-1018",
+      "description": "Compressor cartridge, screw",
+      "category": "Mechanical",
+      "plant": "Plant-02",
+      "currentStock": 1,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    },
+    {
+      "kind": "NON_MOVING",
+      "materialCode": "MAT-1018",
+      "description": "Compressor cartridge, screw",
+      "category": "Mechanical",
+      "plant": "Plant-02",
+      "currentStock": 1,
+      "reorderPoint": 1,
+      "safetyStock": 1,
+      "lastConsumption": 0,
+      "materialType": "ZSPN",
+      "criticalSpare": true
+    }
+  ],
+  "forecasts": [
+    {
+      "materialCode": "MAT-1001",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "h3": 46.5,
+      "h6": 105,
+      "h12": 199.9
+    },
+    {
+      "materialCode": "MAT-1002",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "h3": 236,
+      "h6": 528.8,
+      "h12": 1008.1
+    },
+    {
+      "materialCode": "MAT-1003",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "h3": 2,
+      "h6": 4,
+      "h12": 8
+    },
+    {
+      "materialCode": "MAT-1004",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "h3": 30.9,
+      "h6": 69.1,
+      "h12": 131.8
+    },
+    {
+      "materialCode": "MAT-1005",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "h3": 58.1,
+      "h6": 130,
+      "h12": 248.1
+    },
+    {
+      "materialCode": "MAT-1006",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "h3": 0,
+      "h6": 0,
+      "h12": 0
+    },
+    {
+      "materialCode": "MAT-1007",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "h3": 36.6,
+      "h6": 82.2,
+      "h12": 156.2
+    },
+    {
+      "materialCode": "MAT-1008",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "h3": 8.4,
+      "h6": 18.8,
+      "h12": 35.6
+    },
+    {
+      "materialCode": "MAT-1009",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "h3": 157,
+      "h6": 352.6,
+      "h12": 672
+    },
+    {
+      "materialCode": "MAT-1010",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "h3": 0,
+      "h6": 0,
+      "h12": 0
+    },
+    {
+      "materialCode": "MAT-1011",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "h3": 41.5,
+      "h6": 94.1,
+      "h12": 179.9
+    },
+    {
+      "materialCode": "MAT-1012",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "h3": 470.9,
+      "h6": 1057.6,
+      "h12": 2016
+    },
+    {
+      "materialCode": "MAT-1013",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "h3": 314,
+      "h6": 705.1,
+      "h12": 1344.2
+    },
+    {
+      "materialCode": "MAT-1014",
+      "plant": "Plant-01",
+      "method": "seasonal-naive-baseline",
+      "h3": 2,
+      "h6": 4,
+      "h12": 8
+    },
+    {
+      "materialCode": "MAT-1015",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "h3": 7,
+      "h6": 14,
+      "h12": 28
+    },
+    {
+      "materialCode": "MAT-1016",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "h3": 21.3,
+      "h6": 48.3,
+      "h12": 91.8
+    },
+    {
+      "materialCode": "MAT-1017",
+      "plant": "Plant-03",
+      "method": "seasonal-naive-baseline",
+      "h3": 52.3,
+      "h6": 117.5,
+      "h12": 224
+    },
+    {
+      "materialCode": "MAT-1018",
+      "plant": "Plant-02",
+      "method": "seasonal-naive-baseline",
+      "h3": 0,
+      "h6": 0,
+      "h12": 0
+    }
+  ],
+  "emailMarkdown": "# Monthly Inventory Insight Pack — snapshot 2026-09-01\n\n## Headline KPIs\n- Gross inventory value: ₹2,33,53,400\n- Critical-spares availability: 33.33% (3/9)\n- Frozen capital: ₹1,54,32,000 in 3 NMI + 3 SMI\n- Days on hand 210 / turnover 1.48x\n\n## 7 purchase requisitions recommended\n- MAT-1010 (Plant-01) — raise by 2025-11-05, qty 1: Projected stock 1 ≤ trigger 1 after 0 forecast demand over 300-day lead time (long-lead ZSPN spare — raise early)\n- MAT-1014 (Plant-01) — raise by 2025-12-05, qty 7: Projected stock -4 ≤ trigger 2 after 6 forecast demand over 270-day lead time (long-lead ZSPN spare — raise early)\n- MAT-1006 (Plant-02) — raise by 2026-01-04, qty 1: Projected stock 2 ≤ trigger 2 after 0 forecast demand over 240-day lead time (long-lead ZSPN spare — raise early)\n- MAT-1018 (Plant-02) — raise by 2026-02-03, qty 1: Projected stock 1 ≤ trigger 1 after 0 forecast demand over 210-day lead time (long-lead ZSPN spare — raise early)\n- MAT-1003 (Plant-01) — raise by 2026-03-05, qty 6: Projected stock -1 ≤ trigger 3 after 4 forecast demand over 180-day lead time (long-lead ZSPN spare — raise early)\n- MAT-1015 (Plant-03) — raise by 2026-07-21, qty 4: Projected stock 6 ≤ trigger 6 after 3 forecast demand over 42-day lead time\n- MAT-1007 (Plant-01) — raise by 2026-08-02, qty 49: Projected stock 24 ≤ trigger 48 after 12 forecast demand over 30-day lead time\n\n## Method & caveats\n- The SAP extract carries no PR/PO history — purchase-requisition timing is DERIVED (stock + forecast demand over lead time vs reorder point / safety stock) and every recommendation is advisory.\n- This dataset is the mock extract described in the brief, encoded deterministically by scripts/build_fixtures.py; it is not a live SAP feed.\n- Forecast engine: MCP engine not reachable this run — transparent seasonal-naive baseline over Monthly_Consumption"
+}
