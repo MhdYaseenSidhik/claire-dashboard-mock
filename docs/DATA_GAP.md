@@ -1,5 +1,6 @@
 # INV-2 — Extract analysis & data-gap statement
 
+**Ticket:** S-2 (INV-2) · **Owner:** Robin (Scrum Master / PO) · **Status of inputs verified:** 2026-09-23
 **Ticket:** S-2 (INV-2) · **Owner:** Robin (Scrum Master / PO) · **Status of inputs verified:** 2026-09-22
 
 This is the authoritative statement of **what the analysis pipeline needs, what
@@ -33,6 +34,10 @@ hand-rolled.**
 
 | Input | Expected | Actual | Evidence |
 |-------|----------|--------|----------|
+| SAP extract `mock_inventory_input_data.xlsx` | Attached to the session or in OneDrive/SharePoint | **ABSENT** | Re-verified 2026-09-23 with M365 connected: OneDrive/SharePoint search (`mock_inventory_input_data`, `inventory extract xlsx`, `SAP inventory consumption`, `.xlsx`) → no matching file (only unrelated `online_retail_II.xlsx` and streamlit build artifacts); Shared-with-me → 0 items; mail search `inventory extract` → no attachment; not in the repo or workspace |
+| Forecasting MCP (`mcp_*` tools) | Connected in Integrations | **NOT CONNECTED** | No `mcp_*` tool exists in the session toolset |
+| Repo data bundle `public/data/analysis.json` | Populated KPIs/forecasts/alerts/recs | **Placeholder** — `kpis/forecasts/alerts/recommendations` all `[]` | `cat public/data/analysis.json` on this branch |
+| Sandbox (git/node/python) | Able to build & test | **Healthy** | checkout, `git log`, drive/mail lookups all succeed this session |
 | SAP extract `mock_inventory_input_data.xlsx` | Attached to the session or in OneDrive/SharePoint | **ABSENT** | OneDrive search (`mock_inventory_input_data`, "inventory input consumption SAP extract") → 0 results; Shared-with-me → 0 items; not in the repo or workspace |
 | Forecasting MCP (`mcp_*` tools) | Connected in Integrations | **NOT CONNECTED** | No `mcp_*` tool exists in the session toolset |
 | Repo data bundle `public/data/analysis.json` | Populated KPIs/forecasts/alerts/recs | **Placeholder** — `kpis/forecasts/alerts/recommendations` all `[]` | `git show` on `main` |
