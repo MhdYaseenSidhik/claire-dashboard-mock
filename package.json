@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "typecheck": "tsc -b",
     "lint": "echo 'Linting deferred to a later ticket — typecheck + tests are the gates. See eslint.config.js.'",
+    "pretest": "npm run build:data && npm run build:pack",
     "test": "vitest run",
     "test:watch": "vitest"
   },
