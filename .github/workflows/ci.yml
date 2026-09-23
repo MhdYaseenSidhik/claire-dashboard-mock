@@ -7,18 +7,28 @@ on:
 
 jobs:
   build-test:
+    name: Install, type-check, lint, test, build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version-file: .nvmrc
           cache: npm
+
       - name: Install
-        run: npm ci || npm install
+        run: npm ci
+
       - name: Type-check
         run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
       - name: Test
         run: npm test
+
       - name: Build
         run: npm run build
