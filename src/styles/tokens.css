@@ -5,9 +5,15 @@
 /*
  * Claire design tokens — direction: "Linear/Vercel-calm" enterprise.
  * One typeface (Inter), one accent, semantic colours, 4px spacing scale.
- * Components read these variables; never hardcode a colour in a component.
+ * Components read these variables; never hardcode a colour, size, radius,
+ * spacing or duration in a component. See DESIGN.md for the rationale.
+ *
+ * Colour vars are stored as space-separated RGB channels so Tailwind can
+ * apply <alpha-value> (see tailwind.config.js). Everything else is a ready
+ * CSS value.
  */
 :root {
+  /* --- Surfaces & colour (light) --- */
   --surface: 255 255 255;
   --surface-2: 248 250 252;
   --border: 15 23 42;      /* used at low alpha */
@@ -18,6 +24,49 @@
   --warning: 217 119 6;
   --danger: 220 38 38;
   --info: 2 132 199;
+
+  /* --- Type scale (px) — 12/14/16/20/24/32 --- */
+  --text-caption: 0.75rem;   /* 12 — captions, table units, chart axes */
+  --text-body: 0.875rem;     /* 14 — body, table cells, labels */
+  --text-base: 1rem;         /* 16 — emphasised body, section intro */
+  --text-lg: 1.25rem;        /* 20 — card / panel headings */
+  --text-xl: 1.5rem;         /* 24 — page section titles */
+  --text-2xl: 2rem;          /* 32 — KPI tile values, page title */
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  /* --- Spacing scale (4px base) — 4/8/12/16/24/32/48 --- */
+  --space-1: 0.25rem;   /* 4 */
+  --space-2: 0.5rem;    /* 8 */
+  --space-3: 0.75rem;   /* 12 */
+  --space-4: 1rem;      /* 16 */
+  --space-6: 1.5rem;    /* 24 */
+  --space-8: 2rem;      /* 32 */
+  --space-12: 3rem;     /* 48 */
+  --page-max: 1280px;   /* centred content max-width */
+  --page-pad: 1.5rem;   /* 24 — page horizontal padding */
+
+  /* --- Radii — two radii --- */
+  --radius-control: 8px;  /* buttons, inputs, selects, chips */
+  --radius-card: 12px;    /* cards, panels, table container */
+
+  /* --- Elevation — three levels --- */
+  --elev-1: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --elev-2: 0 4px 12px -2px rgb(0 0 0 / 0.10);
+  --elev-3: 0 12px 32px -8px rgb(0 0 0 / 0.18);
+
+  /* --- Control heights — one set: 32/36/40 --- */
+  --control-sm: 32px;
+  --control-md: 36px;
+  --control-lg: 40px;
+
+  /* --- Motion — one duration + one easing --- */
+  --motion-fast: 150ms;
+  --motion: 200ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .dark {
@@ -31,6 +80,12 @@
   --warning: 251 191 36;
   --danger: 248 113 113;
   --info: 56 189 248;
+
+  /* Dark mode is designed, not inverted: depth comes from lighter surfaces
+   * rather than heavier shadows, so soften elevation. */
+  --elev-1: 0 1px 2px 0 rgb(0 0 0 / 0.30);
+  --elev-2: 0 4px 12px -2px rgb(0 0 0 / 0.45);
+  --elev-3: 0 12px 32px -8px rgb(0 0 0 / 0.55);
 }
 
 * {
@@ -40,9 +95,17 @@
 body {
   margin: 0;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: var(--text-body);
+  line-height: var(--leading-normal);
   background: rgb(var(--surface-2));
   color: rgb(var(--fg));
   -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular figures for KPI values, tables and chart labels so numerics align. */
+.nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
 }
 
 :focus-visible {

@@ -19,13 +19,41 @@ export default {
         danger: 'rgb(var(--danger) / <alpha-value>)',
         info: 'rgb(var(--info) / <alpha-value>)',
       },
-      borderRadius: { card: '12px', control: '8px' },
-      boxShadow: {
-        e1: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
-        e2: '0 4px 12px -2px rgb(0 0 0 / 0.10)',
-        e3: '0 12px 32px -8px rgb(0 0 0 / 0.18)',
+      // Type scale — reads the tokens (12/14/16/20/24/32). Use these named
+      // sizes, not Tailwind's numeric defaults, so the scale stays closed.
+      fontSize: {
+        caption: ['var(--text-caption)', { lineHeight: 'var(--leading-normal)' }],
+        body: ['var(--text-body)', { lineHeight: 'var(--leading-normal)' }],
+        base: ['var(--text-base)', { lineHeight: 'var(--leading-normal)' }],
+        lg: ['var(--text-lg)', { lineHeight: 'var(--leading-tight)' }],
+        xl: ['var(--text-xl)', { lineHeight: 'var(--leading-tight)' }],
+        '2xl': ['var(--text-2xl)', { lineHeight: 'var(--leading-tight)' }],
       },
-      transitionTimingFunction: { out: 'cubic-bezier(0.16, 1, 0.3, 1)' },
+      // 4px spacing scale — the only gaps/paddings components should use.
+      spacing: {
+        1: 'var(--space-1)',
+        2: 'var(--space-2)',
+        3: 'var(--space-3)',
+        4: 'var(--space-4)',
+        6: 'var(--space-6)',
+        8: 'var(--space-8)',
+        12: 'var(--space-12)',
+      },
+      // Control heights — one set (32/36/40).
+      height: {
+        control: 'var(--control-md)',
+        'control-sm': 'var(--control-sm)',
+        'control-lg': 'var(--control-lg)',
+      },
+      maxWidth: { page: 'var(--page-max)' },
+      borderRadius: { card: 'var(--radius-card)', control: 'var(--radius-control)' },
+      boxShadow: {
+        e1: 'var(--elev-1)',
+        e2: 'var(--elev-2)',
+        e3: 'var(--elev-3)',
+      },
+      transitionTimingFunction: { out: 'var(--ease-out)' },
+      transitionDuration: { DEFAULT: 'var(--motion)', fast: 'var(--motion-fast)' },
     },
   },
   plugins: [],
