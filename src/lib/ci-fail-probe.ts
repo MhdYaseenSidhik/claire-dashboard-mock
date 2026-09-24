@@ -1,7 +1,7 @@
-// Temporary CI verification probe for S-4. Deliberately introduces a type
-// error so we can confirm the pipeline's Type-check gate fails the build.
-// This file is reverted before merge; it must never reach main.
+// Temporary CI verification probe for S-4. The deliberate type error has been
+// reverted; this file now type-checks cleanly to confirm the pipeline returns
+// green. The probe branch/PR is closed after this run; nothing reaches main.
 export function ciFailProbe(): number {
-  const value: string = 42;
+  const value = 42;
   return value;
 }
