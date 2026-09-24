@@ -64,8 +64,15 @@ bundle (KPIs, forecasts, alerts, PR recommendations) — default
 ├── public/data/            # analysis bundle consumed by the dashboard
 ├── Dockerfile              # build + nginx static serve
 ├── docker-compose.yml
-└── ci/ci.yml               # CI pipeline (move to .github/workflows to activate)
+└── .github/workflows/ci.yml # CI pipeline (install → typecheck → lint → test → build)
 ```
+
+## Developer guide
+
+Beyond this README, [`docs/DEVELOPER.md`](docs/DEVELOPER.md) covers how the
+system is laid out and why, the data model, how to add a typical feature, and
+how to debug the parts that are not obvious — written for the engineer who
+joins later.
 
 ## Data source &amp; known gaps
 
