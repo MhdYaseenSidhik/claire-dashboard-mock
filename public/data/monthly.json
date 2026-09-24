@@ -1,0 +1,1514 @@
+[
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 16,
+    "consumptionValueInr": 72000
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 17,
+    "consumptionValueInr": 76500
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 18,
+    "consumptionValueInr": 81000
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 20,
+    "consumptionValueInr": 90000
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 22,
+    "consumptionValueInr": 99000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 22,
+    "consumptionValueInr": 99000
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 19,
+    "consumptionValueInr": 85500
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 18,
+    "consumptionValueInr": 81000
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 17,
+    "consumptionValueInr": 76500
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 15,
+    "consumptionValueInr": 67500
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 17,
+    "consumptionValueInr": 76500
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1001",
+    "plant": "Plant-01",
+    "consumptionQty": 18,
+    "consumptionValueInr": 81000
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 81,
+    "consumptionValueInr": 25920
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 86,
+    "consumptionValueInr": 27520
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 90,
+    "consumptionValueInr": 28800
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 99,
+    "consumptionValueInr": 31680
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 112,
+    "consumptionValueInr": 35840
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 108,
+    "consumptionValueInr": 34560
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 94,
+    "consumptionValueInr": 30080
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 90,
+    "consumptionValueInr": 28800
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 86,
+    "consumptionValueInr": 27520
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 76,
+    "consumptionValueInr": 24320
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 86,
+    "consumptionValueInr": 27520
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1002",
+    "plant": "Plant-01",
+    "consumptionQty": 90,
+    "consumptionValueInr": 28800
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 2,
+    "consumptionValueInr": 1780000
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 2,
+    "consumptionValueInr": 1780000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 2,
+    "consumptionValueInr": 1780000
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1003",
+    "plant": "Plant-01",
+    "consumptionQty": 2,
+    "consumptionValueInr": 1780000
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 11,
+    "consumptionValueInr": 28600
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 11,
+    "consumptionValueInr": 28600
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 12,
+    "consumptionValueInr": 31200
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 13,
+    "consumptionValueInr": 33800
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 15,
+    "consumptionValueInr": 39000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 14,
+    "consumptionValueInr": 36400
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 13,
+    "consumptionValueInr": 33800
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 12,
+    "consumptionValueInr": 31200
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 11,
+    "consumptionValueInr": 28600
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 10,
+    "consumptionValueInr": 26000
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 11,
+    "consumptionValueInr": 28600
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1004",
+    "plant": "Plant-02",
+    "consumptionQty": 12,
+    "consumptionValueInr": 31200
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 20,
+    "consumptionValueInr": 36000
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 21,
+    "consumptionValueInr": 37800
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 22,
+    "consumptionValueInr": 39600
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 24,
+    "consumptionValueInr": 43200
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 28,
+    "consumptionValueInr": 50400
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 26,
+    "consumptionValueInr": 46800
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 23,
+    "consumptionValueInr": 41400
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 22,
+    "consumptionValueInr": 39600
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 21,
+    "consumptionValueInr": 37800
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 19,
+    "consumptionValueInr": 34200
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 21,
+    "consumptionValueInr": 37800
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1005",
+    "plant": "Plant-02",
+    "consumptionQty": 22,
+    "consumptionValueInr": 39600
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1006",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 13,
+    "consumptionValueInr": 70200
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 13,
+    "consumptionValueInr": 70200
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 14,
+    "consumptionValueInr": 75600
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 15,
+    "consumptionValueInr": 81000
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 18,
+    "consumptionValueInr": 97200
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 17,
+    "consumptionValueInr": 91800
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 15,
+    "consumptionValueInr": 81000
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 14,
+    "consumptionValueInr": 75600
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 13,
+    "consumptionValueInr": 70200
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 12,
+    "consumptionValueInr": 64800
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 13,
+    "consumptionValueInr": 70200
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1007",
+    "plant": "Plant-01",
+    "consumptionQty": 14,
+    "consumptionValueInr": 75600
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 4,
+    "consumptionValueInr": 168000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 4,
+    "consumptionValueInr": 168000
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1008",
+    "plant": "Plant-03",
+    "consumptionQty": 3,
+    "consumptionValueInr": 126000
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 54,
+    "consumptionValueInr": 45900
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 57,
+    "consumptionValueInr": 48450
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 60,
+    "consumptionValueInr": 51000
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 66,
+    "consumptionValueInr": 56100
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 75,
+    "consumptionValueInr": 63750
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 72,
+    "consumptionValueInr": 61200
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 63,
+    "consumptionValueInr": 53550
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 60,
+    "consumptionValueInr": 51000
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 57,
+    "consumptionValueInr": 48450
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 51,
+    "consumptionValueInr": 43350
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 57,
+    "consumptionValueInr": 48450
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1009",
+    "plant": "Plant-03",
+    "consumptionQty": 60,
+    "consumptionValueInr": 51000
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1010",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 14,
+    "consumptionValueInr": 44800
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 15,
+    "consumptionValueInr": 48000
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 16,
+    "consumptionValueInr": 51200
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 18,
+    "consumptionValueInr": 57600
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 20,
+    "consumptionValueInr": 64000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 19,
+    "consumptionValueInr": 60800
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 17,
+    "consumptionValueInr": 54400
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 16,
+    "consumptionValueInr": 51200
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 15,
+    "consumptionValueInr": 48000
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 14,
+    "consumptionValueInr": 44800
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 15,
+    "consumptionValueInr": 48000
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1011",
+    "plant": "Plant-02",
+    "consumptionQty": 16,
+    "consumptionValueInr": 51200
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 162,
+    "consumptionValueInr": 126360
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 171,
+    "consumptionValueInr": 133380
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 180,
+    "consumptionValueInr": 140400
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 198,
+    "consumptionValueInr": 154440
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 225,
+    "consumptionValueInr": 175500
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 216,
+    "consumptionValueInr": 168480
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 189,
+    "consumptionValueInr": 147420
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 180,
+    "consumptionValueInr": 140400
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 171,
+    "consumptionValueInr": 133380
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 153,
+    "consumptionValueInr": 119340
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 171,
+    "consumptionValueInr": 133380
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1012",
+    "plant": "Plant-03",
+    "consumptionQty": 180,
+    "consumptionValueInr": 140400
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 108,
+    "consumptionValueInr": 45360
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 114,
+    "consumptionValueInr": 47880
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 120,
+    "consumptionValueInr": 50400
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 132,
+    "consumptionValueInr": 55440
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 150,
+    "consumptionValueInr": 63000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 144,
+    "consumptionValueInr": 60480
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 126,
+    "consumptionValueInr": 52920
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 120,
+    "consumptionValueInr": 50400
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 114,
+    "consumptionValueInr": 47880
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 102,
+    "consumptionValueInr": 42840
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 114,
+    "consumptionValueInr": 47880
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1013",
+    "plant": "Plant-01",
+    "consumptionQty": 120,
+    "consumptionValueInr": 50400
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 2,
+    "consumptionValueInr": 4200000
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 2,
+    "consumptionValueInr": 4200000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 2,
+    "consumptionValueInr": 4200000
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1014",
+    "plant": "Plant-01",
+    "consumptionQty": 2,
+    "consumptionValueInr": 4200000
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 7,
+    "consumptionValueInr": 476000
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 7,
+    "consumptionValueInr": 476000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 7,
+    "consumptionValueInr": 476000
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1015",
+    "plant": "Plant-03",
+    "consumptionQty": 7,
+    "consumptionValueInr": 476000
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 7,
+    "consumptionValueInr": 168000
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 8,
+    "consumptionValueInr": 192000
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 8,
+    "consumptionValueInr": 192000
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 9,
+    "consumptionValueInr": 216000
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 10,
+    "consumptionValueInr": 240000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 10,
+    "consumptionValueInr": 240000
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 8,
+    "consumptionValueInr": 192000
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 8,
+    "consumptionValueInr": 192000
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 8,
+    "consumptionValueInr": 192000
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 7,
+    "consumptionValueInr": 168000
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 8,
+    "consumptionValueInr": 192000
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1016",
+    "plant": "Plant-02",
+    "consumptionQty": 8,
+    "consumptionValueInr": 192000
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 18,
+    "consumptionValueInr": 28800
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 19,
+    "consumptionValueInr": 30400
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 20,
+    "consumptionValueInr": 32000
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 22,
+    "consumptionValueInr": 35200
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 25,
+    "consumptionValueInr": 40000
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 24,
+    "consumptionValueInr": 38400
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 21,
+    "consumptionValueInr": 33600
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 20,
+    "consumptionValueInr": 32000
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 19,
+    "consumptionValueInr": 30400
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 17,
+    "consumptionValueInr": 27200
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 19,
+    "consumptionValueInr": 30400
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1017",
+    "plant": "Plant-03",
+    "consumptionQty": 20,
+    "consumptionValueInr": 32000
+  },
+  {
+    "month": "2025-10",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-11",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2025-12",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-01",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-02",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-03",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-04",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-05",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-06",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-07",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-08",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  },
+  {
+    "month": "2026-09",
+    "materialCode": "MAT-1018",
+    "plant": "Plant-02",
+    "consumptionQty": 0,
+    "consumptionValueInr": 0
+  }
+]
